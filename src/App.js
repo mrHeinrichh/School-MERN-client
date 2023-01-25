@@ -1,9 +1,15 @@
 import React from 'react'
 
+import Nav from './Nav'
+
 const App = () => (
-  <React.Fragment>
+  <div className="container pb-5">
+    <Nav />
+
+    <br />
+
     <h1>MERN CRUD</h1>
-  </React.Fragment>
+  </div>
 )
 
 export default App
